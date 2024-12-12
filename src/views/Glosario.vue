@@ -24,39 +24,99 @@ export default {
     return {
       glosarioData: [
         {
-          termino: 'ACID',
+          termino: 'Actuador',
           significado:
-            'Acrónimo de Atomicidad, Consistencia, Aislamiento y Durabilidad; propiedades que garantizan que las transacciones en una base de datos sean fiables.',
+            'Componente que transforma una señal de control en movimiento físico, permitiendo ejecutar acciones como abrir válvulas, mover cilindros o girar motores.',
         },
         {
-          termino: 'Algoritmo',
+          termino: 'Automatización',
           significado:
-            'Conjunto ordenado y finito de operaciones sistemáticas que permite hacer un cálculo y hallar la solución de un problema específico.',
+            'Uso de tecnologías para operar y controlar procesos sin intervención humana directa, con el fin de aumentar la eficiencia, seguridad y precisión en la producción.',
         },
         {
-          termino: 'Base de datos',
+          termino: 'Bomba Hidráulica',
           significado:
-            'Sistema organizado para recopilar, almacenar y gestionar datos de manera estructurada y eficiente.',
+            'Dispositivo que mueve líquido a presión en un sistema hidráulico, permitiendo la transmisión de energía para ejecutar movimientos en maquinaria y equipos industriales.',
         },
         {
-          termino: 'CRUD',
+          termino: 'Caudal',
           significado:
-            '<i>Acrónimo de Create, Read, Update, Delete;</i> operaciones básicas que se pueden realizar sobre datos almacenados.',
+            'Medida del flujo de un fluido a través de una tubería o sistema; los sensores de caudal son cruciales en procesos industriales que requieren control preciso de líquidos o gases.',
         },
         {
-          termino: '<i>Dataset</i>',
+          termino: 'Compresor',
           significado:
-            'Conjunto de datos organizados y formateados de manera específica para su uso en análisis o entrenamiento de modelos.',
+            'Máquina que aumenta la presión de un gas, como el aire, para su uso en sistemas neumáticos, proporcionando la energía necesaria para el funcionamiento de actuadores.',
         },
         {
-          termino: 'Datos estructurados',
+          termino: 'Control PID',
           significado:
-            'Información que está organizada en un formato predefinido y fácilmente procesable por máquinas, típicamente en tablas con filas y columnas.',
+            'Controlador Proporcional-Integral-Derivativo; técnica de control que ajusta la salida en función de la desviación del valor deseado, su acumulación y velocidad de cambio.',
         },
         {
-          termino: 'ETL',
+          termino: 'GIS (Sistema de Información Geográfica)',
           significado:
-            '<i>Extract, Transform, Load </i>(Extraer, Transformar, Cargar); proceso que permite a las organizaciones mover datos desde múltiples fuentes, reformatearlos y limpiarlos, y cargarlos en otra base de datos.',
+            'Herramienta que permite el análisis y visualización de datos geoespaciales, aplicable en la gestión de la variabilidad espacial en agricultura y logística.',
+        },
+        {
+          termino: 'Hidráulica',
+          significado:
+            'Tecnología que usa líquidos a presión para generar fuerza y movimiento, aplicable en maquinaria pesada y procesos industriales que requieren alta potencia y precisión.',
+        },
+        {
+          termino: 'Instrumentación',
+          significado:
+            'Disciplina que se encarga de la medición y monitoreo de variables de proceso, como temperatura, presión, flujo y nivel, utilizando sensores y transductores.',
+        },
+        {
+          termino: 'Lógica Cableada',
+          significado:
+            'Método de automatización basado en el cableado físico de dispositivos como relés y contactores, formando circuitos que ejecutan funciones específicas.',
+        },
+        {
+          termino: 'Lógica Programable',
+          significado:
+            'Método de control basado en programación, usando dispositivos como PLCs, lo que permite modificar y ampliar la lógica de control sin necesidad de cambios físicos en el cableado.',
+        },
+        {
+          termino: 'Neumática',
+          significado:
+            'Tecnología que utiliza aire comprimido para generar movimiento, aplicada en sistemas que requieren rapidez y flexibilidad, como líneas de ensamblaje y herramientas.',
+        },
+        {
+          termino: 'PLC (Controlador Lógico Programable)',
+          significado:
+            'Dispositivo electrónico usado para automatizar procesos mediante programación, permitiendo el control de secuencias complejas en líneas de producción.',
+        },
+        {
+          termino: 'SCADA',
+          significado:
+            'Sistema de Supervisión, Control y Adquisición de Datos; permite monitorear y controlar procesos industriales a distancia en tiempo real.',
+        },
+        {
+          termino: 'Sensor',
+          significado:
+            'Dispositivo que detecta cambios en una variable física y convierte esa información en una señal eléctrica que puede ser medida o utilizada para el control.',
+        },
+        {
+          termino: 'Sistema de Información',
+          significado:
+            'Conjunto de componentes que recopilan, almacenan y procesan datos para apoyar la toma de decisiones y la gestión de operaciones en una organización o industria.',
+        },
+        {
+          termino: 'Válvula de Control',
+          significado:
+            'Dispositivo que regula el flujo y la presión de un fluido en un sistema hidráulico o neumático, controlando el movimiento de actuadores y el flujo de energía en el sistema.',
+        },
+        {
+          termino: 'Variabilidad Espacial',
+          significado:
+            'Cambios en una variable medida (como temperatura, humedad o calidad del suelo) en función de la ubicación geográfica, útil en sectores como agricultura y medio ambiente.',
+        },
+        {
+          termino: 'Variabilidad Temporal',
+          significado:
+            'Cambios en una variable en función del tiempo, como las fluctuaciones diarias o estacionales de temperatura o humedad en un proceso o entorno industrial.',
         },
       ],
     }

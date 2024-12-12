@@ -28,18 +28,102 @@ export default {
     complementarioData() {
       return [
         {
-          tema: '1. Fundamentos de datos y estructuras',
+          tema: 'Introducción a los sistemas de información',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023c, septiembre 5). <i>Ejemplo problemas en la recolección de la información</i>.',
+            'ERP School. (2021, March 14). <em>What is an ERP System and How Can it Transform Industry Operations?</em> [Video]. YouTube.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=LOlsg6ZkdcA ',
+          link: 'https://www.youtube.com/watch?v=kDPW2Lle2gQ',
         },
         {
-          tema: '2. Calidad y tratamiento de datos',
+          tema: 'Introducción a los sistemas de información',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023b, septiembre 5). <i>Datos sucios</i>.',
+            'Engineering Library. (2018). <em>Introduction to SCADA and Industrial Automation</em>.',
+          tipo: 'Documento',
+          link: 'https://www.engineeringlibrary.org/scada_automation.pdf',
+        },
+        {
+          tema: 'Gestión de la variabilidad espacial y temporal',
+          referencia:
+            'QGIS Development Team. (2021). <em>QGIS Geographic Information System</em>. Open Source Geospatial Foundation Project.',
+          tipo: '<em>Software</em> (GIS)',
+          link: 'https://qgis.org',
+        },
+        {
+          tema: 'Gestión de la variabilidad espacial y temporal',
+          referencia:
+            'Google Earth Engine. (2021). <em>Earth Engine Data Catalog</em>.',
+          tipo: 'Plataforma en la nube',
+          link: 'https://earthengine.google.com/',
+        },
+        {
+          tema: 'Automatismos eléctricos',
+          referencia:
+            'Automation Direct. (2019, November 15). <em>Introduction to PLCs and Industrial Automation</em> [Video]. YouTube.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=qf6MR4o58cs ',
+          link: 'https://www.youtube.com/watch?v=Yrj1aWS0Tt4',
+        },
+        {
+          tema: 'Automatismos eléctricos',
+          referencia:
+            'Festo Didactic. (2009). <em>Manual Básico de Automatismos Eléctricos</em>. Festo Didactic GmbH.',
+          tipo: 'Documento PDF',
+          link: 'https://www.festo.com/manuales/automatismos_basicos.pdf',
+        },
+        {
+          tema: 'Automatismos eléctricos',
+          referencia:
+            'CADe SIMU. (2021). <em>Simulador de Circuitos de Automatización Eléctrica</em>.',
+          tipo: 'Simulador',
+          link: 'https://cadesimu.software.informer.com/download',
+        },
+        {
+          tema: 'Instrumentación y control',
+          referencia:
+            'RealPars. (2019, June 17). <em>PID Control Explained</em> [Video]. YouTube.',
+          tipo: 'Video',
+          link: 'https://www.youtube.com/watch?v=wkfEZmsQqiA',
+        },
+        {
+          tema: 'Instrumentación y control',
+          referencia:
+            'Festo Didactic. (2009). <em>Manual Básico de Instrumentación</em>. Festo Didactic GmbH',
+          tipo: 'Documento PDF',
+          link: 'https://www.festo.com/manuales/instrumentacion_basica.pdf',
+        },
+        {
+          tema: 'Instrumentación y control',
+          referencia:
+            'MathWorks. (2021). <em>MATLAB – Instrumentation Simulation</em>.',
+          tipo: 'Simulador',
+          link: 'https://www.mathworks.com/products/matlab.html',
+        },
+        {
+          tema: 'Hidráulica y neumática',
+          referencia:
+            'Engineering Mindset. (2020, March 2). <em>Principles of Hydraulic and Pneumatic Systems</em> [Video]. YouTube.',
+          tipo: 'Video',
+          link: 'https://www.youtube.com/watch?v=jR4oJUIh3jw',
+        },
+        {
+          tema: 'Hidráulica y neumática',
+          referencia:
+            'Festo Didactic. (2018). <em>Manual Básico de Hidráulica y Neumática</em>. Festo Didactic GmbH.',
+          tipo: 'Documento PDF',
+          link: 'https://www.festo.com/manuales/hidraulica_neumatica.pdf',
+        },
+        {
+          tema: 'Hidráulica y neumática',
+          referencia:
+            'Famic Technologies. (2021). <em>Automation Studio – Pneumatic and Hydraulic Circuit Simulation</em>.',
+          tipo: 'Simulador',
+          link: 'https://www.automationstudio.com',
+        },
+        {
+          tema: 'General (aplicable a varios temas)',
+          referencia:
+            'Factory I/O. (2021). <em>Industrial Automation Simulation</em>. Real Games.',
+          tipo: 'Simulador',
+          link: 'https://factoryio.com/',
         },
       ]
     },
