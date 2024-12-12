@@ -110,6 +110,82 @@
     
       p(data-aos="fade-left") Los sistemas de información se han convertido en una herramienta esencial para la toma de decisiones estratégicas en la industria. A continuación, se presentan algunos de los sistemas más comunes que apoyan este proceso:
 
+    .cont_1_4.mt-5.pt-4.pb-4.pb-xl-5.pt-xl-5
+      .tarjeta.bg-white.p-4.p-lg-5.pb-lg-4
+        CarouselRED(tipo="b")
+          .row.pt-lg-4.col-xl-11.m-auto
+            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+              h5 SCADA (supervisión, control y adquisición de datos)
+              p.mt-4 Es un sistema de supervisión y control que recopila datos en tiempo real de sensores y dispositivos distribuidos en el entorno industrial. Los sistemas scada permiten el monitoreo y control de operaciones desde una ubicación centralizada, asegurando la eficiencia y seguridad en procesos críticos.
+            .col-lg-5
+              figure.m-auto.col-12.col-md-8.col-lg-12
+                img(src='@/assets/curso/tema1/11.png')
+          .row.pt-lg-4.col-xl-11.m-auto
+            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+              h5 Sistemas MES (Manufacturing Execution System)
+              p.mt-4 Un sistema mes gestiona y controla las operaciones de fabricación en tiempo real. Facilita el seguimiento de cada producto en la línea de producción, asegurando la trazabilidad y el cumplimiento de los estándares de calidad.
+            .col-lg-5
+              figure.m-auto.col-12.col-md-8.col-lg-12
+                img(src='@/assets/curso/tema1/12.png')
+          .row.pt-lg-4.col-xl-11.m-auto
+            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+              h5 ERP (Enterprise Resource Planning)
+              p.mt-4 Este sistema integra diversas áreas de la empresa, como finanzas, producción, logística y recursos humanos, en una única plataforma. Los ERP optimizan la planificación de recursos y mejoran la visibilidad general de la organización, permitiendo a los gerentes tomar decisiones informadas basadas en datos centralizados.
+            .col-lg-5
+              figure.m-auto.col-12.col-md-8.col-lg-12
+                img(src='@/assets/curso/tema1/13.png')
+          .row.pt-lg-4.col-xl-11.m-auto
+            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+              h5 CMMS (Computerized Maintenance Management System)
+              p.mt-4 Un sistema de gestión de mantenimiento que ayuda a programar, ejecutar y monitorear las actividades de mantenimiento de los equipos industriales. El CMMS reduce el tiempo de inactividad no planificado y prolonga la vida útil de los equipos, mejorando la productividad general.
+            .col-lg-5
+              figure.m-auto.col-12.col-md-8.col-lg-12
+                img(src='@/assets/curso/tema1/14.png')
+
+    Separador
+
+    .titulo-segundo(data-aos="flip-up")
+      h2#t_1_4 1.4 Aplicaciones de los sistemas de información en la industria
+
+    .row.mt-4
+      .col-lg-auto.d-none.d-lg-block(data-aos="fade-right")
+        figure
+          img(src="@/assets/curso/tema1/15.png")
+      .col-lg(data-aos="fade-left")
+        .h-100.p-3.p-lg-4.d-flex.align-content-center.flex-wrap(style="background-color:#01B9D1;border-radius:10px;")
+          ul.lista-ul.mb-0
+            li.d-flex.bg-white.p-2(style="border-radius:4px;")
+              i.fas.fa-check-circle(style="color:#78B62E;")
+              span #[strong Automatización y control de procesos:] los sistemas de información permiten monitorear y controlar procesos industriales en tiempo real, mejorando la precisión y reduciendo los errores humanos. Un ejemplo es la automatización de líneas de producción en la industria automotriz, donde cada etapa del ensamblaje se controla de manera automática y precisa.
+            li.d-flex.bg-white.p-2(style="border-radius:4px;")
+              i.fas.fa-check-circle(style="color:#78B62E;")
+              span #[strong Gestión de la cadena de suministro:] mediante el uso de sistemas ERP y MES, las empresas pueden gestionar y optimizar la cadena de suministro, desde la adquisición de materiales hasta la distribución del producto final. Esto es particularmente útil en industrias como la alimentaria y farmacéutica, donde el control de inventarios y la trazabilidad son esenciales.
+            li.d-flex.bg-white.p-2.mb-0(style="border-radius:4px;")
+              i.fas.fa-check-circle(style="color:#78B62E;")
+              span #[strong Mantenimiento predictivo:] a través de sistemas de información y sensores de monitoreo, es posible predecir fallos en los equipos y realizar mantenimiento preventivo antes de que ocurra una falla. Esto reduce los tiempos de inactividad y mejora la eficiencia operativa, como en plantas de energía y manufactura avanzada.
+
+    p.mt-4(data-aos="fade-right") Se recomienda profundizar sobre los sistemas de información a través del siguiente material:
+
+    .row.mt-4.justify-content-center
+      .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="fade-up")
+        a.anexo.ms-0.h-100(href="https://www.youtube.com/watch?v=kDPW2Lle2gQ" target="_blank" style="max-width:fit-content;")
+          .anexo__icono
+            img(src="@/assets/bullets/icono-video.svg")
+          .anexo__texto
+            p.fw-normal #[strong Enlace video.] Video- “What is an ERP System and How Can it Transform Industry Operations?”  
+      .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="fade-up")
+        a.anexo.ms-0.h-100(href="https://factoryio.com/" target="_blank" style="max-width:fit-content;")
+          .anexo__icono
+            img(src="@/assets/bullets/icono-link.svg")
+          .anexo__texto
+            p.fw-normal #[strong Enlace web.]  Simulador: Factory I/O - Simulación de Procesos Industriales.
+      .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="fade-up")
+        a.anexo.ms-0.h-100(href="https://www.engineeringlibrary.org/scada_automation.pdf" target="_blank" style="max-width:fit-content;")
+          .anexo__icono
+            img(src="@/assets/bullets/icono-link.svg")
+          .anexo__texto
+            p.fw-normal #[strong Enlace web.] Lectura:“Introduction to SCADA and Industrial Automation”.
+
     
                                                                                            
 </template>
