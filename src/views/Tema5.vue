@@ -81,19 +81,19 @@
           tr(style="background-color:#fff;")
             td(style="border:0;border-right:1px #AFAFAF solid;") 
                 figure
-                  img.d-inline(src="#" style="max-width:170px;")
+                  img.d-inline(src="@/assets/curso/tema5/13.png" style="max-width:170px;")
             td(style="border-right:1px #AFAFAF solid;") Actuadores (cilindros y motores)
             td(style="border:0;") Estos dispositivos convierten la energía del fluido en movimiento lineal (cilindros) o rotativo (motores). Los actuadores son el componente que realiza el trabajo físico en el sistema.
           tr(style="background-color:#F6F6F6;")
             td(style="border:0;border-right:1px #AFAFAF solid;") 
                 figure
-                  img.d-inline(src="#" style="max-width:170px;")
+                  img.d-inline(src="@/assets/curso/tema5/14.jpg" style="max-width:170px;")
             td(style="border-right:1px #AFAFAF solid;")  Filtros y secadores
             td(style="border:0;") Los filtros en hidráulica y los secadores en neumática son esenciales para remover impurezas y humedad, protegiendo los componentes y asegurando una operación eficiente.
           tr(style="background-color:#fff;")
             td(style="border:0;border-right:1px #AFAFAF solid;") 
                 figure
-                  img.d-inline(src="#" style="max-width:170px;")
+                  img.d-inline(src="@/assets/curso/tema5/15.jpg" style="max-width:170px;")
             td(style="border-right:1px #AFAFAF solid;") Acumuladores y reservorios
             td(style="border:0;") En hidráulica, los acumuladores almacenan energía bajo presión para su uso posterior, mientras que los reservorios contienen el fluido que será recirculado en el sistema.
     
